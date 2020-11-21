@@ -3,31 +3,29 @@
 	<head>
 		<title></title>
 		<style>
-			div{
-			position: relative;
-			width:200px; /*should always be same as h*/
-			height:200px; /*should always be same as w*/
-			border-radius:100px; /*should always be half of the w-h*/
-			top: 50%;
-  			left: 50%;
-			}
-			.red{
-				background-color: red;
-			}
-			.green{
-				background-color: green;
-			}
-			.blue{
-				background-color: blue;
+			.balloon{
+			position: absolute;
+			background-color: red;
+			width: 240px; /*should always be same as h*/
+			height: 240px; /*should always be same as w*/
+			border-radius: 50%; /*should always be half of the w-h*/
+			top: calc(50% - 100px);
+  			left: calc(50% - 100px);
 			}
 		</style>
 	</head>
 	<body>
-		<div onclick="expand()">
+		<div class="red balloon" onclick="expand()" onmouseout="hover()">
 			<script>
+				var balloon = document.querySelector('.balloon');
 				function expand() 
 				{
+					balloon.style.backgroundColor = 'green';
 
+				}
+				function hover()
+				{
+					balloon.style.backgroundColor = 'purple';
 				}
 		</script>
 		</div>
