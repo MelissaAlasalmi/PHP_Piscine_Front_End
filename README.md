@@ -1,6 +1,7 @@
 # PHP_Piscine_Balloon
 
-This file creates an interactive "balloon" in a web browser. 
+This file creates an interactive "balloon" in a web browser.
+See it in action here: https://melissaalasalmi.github.io/PHP_Piscine_Balloon/balloon.html 
 - Every time the balloon is clicked, its color will change from red to green, to blue - following this color sequence with each click. 
 - With each click, its size will also grow by 10px.
 - If the size of the balloon becomes greater than 420px, it will return to its original size.
