@@ -10,3 +10,12 @@ See it in action here: https://melissaalasalmi.github.io/PHP_Piscine_HTML/Balloo
 - In addition, when the balloon is moused over (hovering over the balloon with the mouse, then moving the mouse away), the size of the balloon will shrink by 5px.
 - The balloon cannot go lower than 200px in size.
 - For each mouseover, its color will also change in the reverse order of the sequence in point one - from blue to green, to red, etc.
+
+## Basics
+See it in action here: https://melissaalasalmi.github.io/PHP_Piscine_HTML/Basics/basics.html
+
+## PeriodicTable
+See it in action here: https://melissaalasalmi.github.io/PHP_Piscine_HTML/Periodic_Table/mendeleev.html
+
+## ResponsivePeriodicTable
+See it in action here: https://melissaalasalmi.github.io/PHP_Piscine_HTML/Responsive_Periodic_Table/responsive.html
