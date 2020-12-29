@@ -1,4 +1,4 @@
-# PHP_Piscine_HTML
+# PHP_Piscine_Front_End
 Here are some of the front-end projects I worked on during the PHP Piscine. They aren't too pretty, but they taught me a lot about the basics of web development!
 
 ## Balloon
